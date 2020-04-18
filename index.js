@@ -23,7 +23,7 @@ app.post("/query", (req, res) => {
             },
             {
                 text: "Open Alles mb and post",
-                url: `https://pulsar.alles.cx/post?content=${encodeURIComponent(req.body.query)}`
+                url: `https://mb.alles.cx/post?content=${encodeURIComponent(req.body.query)}`
             }
         ]
     });
